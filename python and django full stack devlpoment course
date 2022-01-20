@@ -1,4 +1,4 @@
-{HTML}section 3
+{HTML}
 
 <!DOCTYPE html>
 <html>
@@ -37,6 +37,57 @@
 
     </body>
     </html>
- 
+   
+   
+   
+  html sec 4:
+  !DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h1>log In </h1>
+<h2>please input your email and password</h2>
+<form>
+<input type="email" name="useremail" value="Email here"> 
+<input type="password" name="password" value="">
+<input type="submit" name="" value="click me">
 
+    </form>
+    </body>
+    </html>
+    
+    
+<input type="text" name="" placeholder="not required">
+<input type="text" name="" placeholder="required" required>
+<input type="submit" name="" values="submit">
+
+h1>hotel feedback form</h1>
+
+    <form method="get">
+    <h3>are you from inside the us? or outside the us?</h3>
+    
+    <label for="inusa">inside: </label>
+    <input id="inusa"type="radio" name="" values="inside">
+
+<label for="outusa">outside: </label>
+    <input id="outusa" type="radio" name="loc" values="outside">
+ 
+ <h2>how was your service?</h2>
+
+<select name="stars">
+    <option value="great">3</option>
+    <option value="okay">2</option>
+    <option value="bad">1</option>
+
+    </select>
+    
+    <h2>any other feedback?</h2>
+    
+    <textarea name="mytext" rows="8" cols="80"></textarea>
+    
+    <input type="submit" name="" values="SUBMIT">
+    
+ </form>
 

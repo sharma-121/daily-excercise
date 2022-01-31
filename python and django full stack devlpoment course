@@ -91,3 +91,34 @@ h1>hotel feedback form</h1>
     
  </form>
 
+#python level one 
+part one number
+
+my_income = 100
+tax_rate = 0.1
+my_taxes = my_income * tax_rate 
+print(my_taxes)
+
+part two strings 
+
+mystring = 'abcdefg'
+print(mystring[2:])
+
+mystring = 'abcdefg'
+print(mystring[::1])
+
+mystring = 'abcdefg'
+x = mystring.upper()
+print(x)
+
+mystring = 'abcdefg'
+x = mystring.capitalize()
+print(x)
+
+mystring = 'Hello World'
+x = mystring.split('o')
+print(x)
+
+x = "Item One: {x} Item Two: {y}".format(x ="dog", y="cat")
+print(x)
+

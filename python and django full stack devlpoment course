@@ -209,4 +209,17 @@ print(x)
 converted = set([1,1,1,1,2,2,2,2,3,3,3,])
 print(converted)
 
+part7 control flow
+
+if 1<2:
+print('First Block')
+if 20 < 3:
+print("Second Block")
+
+if 1 < 2:
+print("hello")
+else:
+print('last')
+
+
 

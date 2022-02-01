@@ -200,8 +200,9 @@ x.add(0.1)
 print(x)
 
 x.add(1)
-x.add(2)
-x.add(4)
+x.add(2)*
+
+yu+.add(4)
 x.add(4)
 x.add(4)
 print(x)
@@ -216,10 +217,48 @@ print('First Block')
 if 20 < 3:
 print("Second Block")
 
-if 1 < 2:
+if 1 == 1:
+if 1 > 2:
 print("hello")
+elif 3 == 3:
+print('elif ran')
 else:
 print('last')
 
+seq = [1,2,3,4,5,6]
+for item in seq:
+print('item')
 
+seq = [1,2,3,4,5,6]
+for item in seq:
+print('hello')
 
+d = {"sam":1,"frank":2,"Dan":3}
+
+for k in d:
+print(k)
+print(d[k])
+
+mypairs = [(1,2),(3,4),(5,6)]
+
+for tup1,tup2 in mypairs:
+print(tup2)
+print(tup1)
+
+i = i 
+
+while i<5:
+print("i is: {}".format(i))
+i = i +1
+
+x = [1,2,3,4]
+
+out = []
+for num in x:
+out.append(num**2)
+
+print(out)
+
+x = [1,2,3,4]
+out =[num**2 for num in x]
+print(out)

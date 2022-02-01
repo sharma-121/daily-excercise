@@ -262,3 +262,38 @@ print(out)
 x = [1,2,3,4]
 out =[num**2 for num in x]
 print(out)
+
+part 8 functions
+def my_func(paraml='default'):
+print("my first python function!")
+
+my_func()
+def my_func(paraml='defaault'):
+"""
+THIS IS THE DOCTSTRING
+"""
+print("my first python functional! {}".format (paraml)
+my_func()
+
+def addNum(num1,num2):
+if type(num1)==type(num2)==type(10):
+return num1+num2
+else:
+return "sorry, I need integers!"
+
+result = addNum("2",'3')
+print(result)
+
+mylist = [1,2,3,4,5,6,7,8]
+
+def even_boo1(num):
+return num%2 == 0 
+
+evens = filter(even_boo1,mylist)
+print(evens)
+
+tweet = "Go sports! #Sports"
+result = tweet.split('#')
+print(result)
+
+

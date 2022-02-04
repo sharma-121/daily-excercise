@@ -1,0 +1,14 @@
+django setup 
+conda create --name myDjangoEnv
+conda create --name MyDjangoEnv python=3.5
+conda info --envs
+source activate
+activate MyDjangoEnv
+conda install django
+
+level one part two django proj
+cd desktop
+mkdir My_Django_Stuff
+activate MyDjangoEnv
+start project first_project
+

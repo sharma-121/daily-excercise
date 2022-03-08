@@ -1,0 +1,31 @@
+ages = (r'/d{1,3}',NameAge)
+
+names = (r'[A-Z][a-z]*',NameAge)
+
+all inform = re.findall("inform","we need to inform him with the latest information")
+
+allstr = re.findall("[shmp]at",str)
+
+allstr = re.findall("[h-m]at",str)
+
+(r"//drogba",randstr)
+
+re.compile("/n")
+
+("/d",randstr)
+
+("/D",randstr)
+
+("/d{5,7}",num)
+
+phone numbers=("/w{3}-/w{3}-/w{4}",phn):
+
+("/d{3}-/d{3}-/d{4}",phn):
+
+("/w{2,20}/s/w{2,20}","yash sharma"):
+
+("/w{2,20}/S/w{2,20}","yash sharma"):
+
+email = ("[/w.%+-]{1,20}@[/w.-]{2,20}.[A-Za-z]{2,3}",email)
+
+html = ("/(/d{3}/) /d{3}-/d{4}",htmlstr)

@@ -29,3 +29,26 @@ phone numbers=("/w{3}-/w{3}-/w{4}",phn):
 email = ("[/w.%+-]{1,20}@[/w.-]{2,20}.[A-Za-z]{2,3}",email)
 
 html = ("/(/d{3}/) /d{3}-/d{4}",htmlstr)
+
+
+
+import re
+filters = {
+    'email': '"[/w.%+-]{1,20}@[/w.-]{2,20}.[A-Za-z]{2,3}',
+    'phone': '/w{3}-/w{3}-/w{4}'
+}
+
+
+class Parser:
+    def __init__(self, name,):
+        self.name = name
+
+    def parse_email(self, value):
+
+        # check regex
+        return bool(re.fullmatch(filters["email"],value))
+    
+    def parse_phone(self, value):
+
+        # check regex
+        return bool(re.fullmatch(filters["phone"],value))
